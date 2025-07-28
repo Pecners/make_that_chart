@@ -4,4 +4,4 @@ This repo houses the code from my series of YouTube videos where I walk through 
 
 ## [Big Beautiful Bill Impact on Households](./nyt_bbb_impact/)
 
-!(nyt_bbb_impact/imgs/big_bill_household_impact_graph.png)
+![](nyt_bbb_impact/imgs/big_bill_household_impact_graph.png)
