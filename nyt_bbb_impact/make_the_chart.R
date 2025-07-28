@@ -14,7 +14,7 @@ d |>
                 vjust = ifelse(est_change < 0, 1.5, -.5)),
               family = "Libre Franklin") +
   geom_text(aes(label = household_group,
-                y = ifelse(est_change > 0, -.003, .003)),
+                y = ifelse(est_change > 0, -.005, .005)),
             color = "grey50", lineheight = 1,
             family = "Libre Franklin", size = 3) + 
   scale_fill_identity() +
@@ -22,11 +22,11 @@ d |>
   coord_cartesian(clip = "off") +
   theme_void() +
   theme(text = element_text(family = "Libre Franklin"),
-        title = element_text(face = "bold"),
+        title = element_text(face = "bold", size = 9),
         plot.subtitle = element_text(face = "plain", color = "grey30"),
-        plot.caption = element_text(face = "plain", hjust = 0, size = 9,
+        plot.caption = element_text(face = "plain", hjust = 0, size = 7,
                                     lineheight = 1.1, color = "grey30",
-                                    margin = margin(t = 10, b = 5))) +
+                                    margin = margin(t = 20, b = 5))) +
   labs(title = "How the Bill Would Affect Households at Different Income Ranks",
        subtitle = "Estimated annual average change in resources between 2026-34",
        caption = glue::glue(

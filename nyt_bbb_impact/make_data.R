@@ -27,5 +27,3 @@ d <- tibble::tribble(
       "Top\n10%"
     )
   ))
-
-# saveRDS(d, "data/houshold_est_change.rda")
