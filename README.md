@@ -4,7 +4,7 @@ This repo houses the code from my series of YouTube videos where I walk through 
 
 ## [Heating Unit Sales](./nyt_heating_unit_sales/)
 
-![](nyt_bbb_impact/imgs/nyt_heating_unit_sales.png)
+![](nyt_heating_unit_sales/imgs/nyt_heating_unit_sales.png)
 
 ## [Big Beautiful Bill Impact on Households](./nyt_bbb_impact/)
 
